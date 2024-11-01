@@ -42,6 +42,9 @@ body
     bottom: 0;
     z-index: 10;
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-content
@@ -52,9 +55,20 @@ body
     min-height: 100vh;
     color: var(--text-black-900);
 }
-
+ul
+{
+    list-style: none;
+}
 /* Section styling */
 .section
 {
     display: block;
+}
+
+.aside .logo
+{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
 }
